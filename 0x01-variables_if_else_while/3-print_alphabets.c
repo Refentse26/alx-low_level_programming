@@ -2,19 +2,25 @@
 
 /**
  * main - print alphabet in lowercase
- * Return: Always 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
-	char ch;
+	char ch = 'a';
+	int CH = 'A';
 
-	for (ch - 'a'; ch <= 'z'; ch++)
+	while (ch <= 'z')
+	{
 		putchar(ch);
+		ch++;
+	}
 
-	for (ch - 'A'; ch <= 'Z'; ch++)
-		putchar(ch);
+	while (CH <= 'Z')
+	{
+		putchar(CH);
+		CH++;
+	}
 
 	putchar('\n');
-
 	return (0);
 }
