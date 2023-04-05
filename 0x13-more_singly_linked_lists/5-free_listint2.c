@@ -3,7 +3,7 @@
  * free_listint2 - frees the linked list.
  * @head: pointer tobe freed.
  */
-void free_listint2(listint_t **head)
+void free_listint2(listint_t **head);
 {
 listint_t *temp;
 

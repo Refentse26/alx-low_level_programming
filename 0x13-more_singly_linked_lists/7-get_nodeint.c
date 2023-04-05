@@ -8,7 +8,7 @@
  * Return: pointer to the node
  * or NULL if the node does not exist.
  */
-listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
+listint_t *get_nodeint_at_index(listint_t *head, unsigned int index);
 {
 unsigned int i = 0;
 listint_t *temp = head;

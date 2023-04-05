@@ -7,7 +7,7 @@
  * Return: 0 if the list is empty
  * otherwise the sum of all data.
  */
-int sum_listint(listint_t *head)
+int sum_listint(listint_t *head);
 {
 int sum = 0;
 listint_t *temp = head;
